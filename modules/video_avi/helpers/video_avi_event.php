@@ -36,6 +36,6 @@ class video_avi_event_Core {
   }
 
   static function create_new_avi($other_item, $parent, $entry, $name, $title, $description, $owner_id) {
-    $other_item = video_avi::create($parent, $entry->file, $name, $title, $description, $owner_id);
+    $other_item = video_avi::create($parent, $entry, $name, $title, $description, $owner_id);
   }
 }
